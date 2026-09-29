@@ -1,0 +1,17 @@
+.Renviron
+.Rhistory
+.RData
+.Rproj.user
+.positai/
+
+*.html
+*_files/
+*.xlsx
+api_export.json
+emotion_twister_tables.xlsx
+_company_config.R
+
+company_reports/
+_tmp_*.R
+.quarto/
+*_cache/
