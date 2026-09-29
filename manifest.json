@@ -3179,13 +3179,64 @@
   },
   "files": {
     "emotion_twister_survey_report.qmd": {
-      "checksum": "930df87fbf13ac643f0d903dc279b403"
+      "checksum": "bab0b6f8b40c16e1c6641e308fe06056"
+    },
+    "_report_body.qmd": {
+      "checksum": "a825b3e851d8de76c02d3a1d44bf30c5"
+    },
+    "_config_labels.R": {
+      "checksum": "428f10dfc3f0cbc645b8509e48353a13"
     },
     "README.md": {
-      "checksum": "b49ba529c68c8a889a88d76c1eeb89bd"
+      "checksum": "56c131464e0a35e65b45f83ae266ace1"
     },
     ".Renviron.example": {
       "checksum": "ca1507a3945da699884e60be638706ad"
+    },
+    "company_report_jobs.R": {
+      "checksum": "17045469dfc42ccd3f92bdec8648a798"
+    },
+    "generate_company_qmds.R": {
+      "checksum": "31bcaa48063b12bc2cd597653d3c4899"
+    },
+    "build_all_companies_xlsx.R": {
+      "checksum": "b4cd94316158abf68fe2814a76703381"
+    },
+    "companies/bct.qmd": {
+      "checksum": "9d0cd77ac28e1fc9adef567d8ce2c76c"
+    },
+    "companies/chiyu.qmd": {
+      "checksum": "9fdaa19450c05a0a0c3f23a3a3f8760f"
+    },
+    "companies/esg-hong-kong.qmd": {
+      "checksum": "8417404517b82e6d63f2f2381be05bd7"
+    },
+    "companies/hang-yick.qmd": {
+      "checksum": "d391dcb68a60a0257ab396f4968ed634"
+    },
+    "companies/mtr.qmd": {
+      "checksum": "eec246d37139076fd7cc5a8d33427a48"
+    },
+    "companies/nan-fung-kwai-chung.qmd": {
+      "checksum": "171549e4b29290af977cca117634faa4"
+    },
+    "companies/regal-court.qmd": {
+      "checksum": "91bc2f71483d07b4e488f515bfe6d946"
+    },
+    "companies/tdc.qmd": {
+      "checksum": "ba2efc8e2aacbda8476ab47334811b05"
+    },
+    "companies/toppan-nexus.qmd": {
+      "checksum": "f7fe94182b676da4395f6364fda9b9fa"
+    },
+    "companies/well-born-2026-06-07.qmd": {
+      "checksum": "6c2c41081894ab9e24ff4053fc819c27"
+    },
+    "companies/well-born-2026-09.qmd": {
+      "checksum": "19c8f8811fed00a634e4e84b9bba4a3b"
+    },
+    "companies/ywca-cheung-ching.qmd": {
+      "checksum": "a8bbbba8182c11765c207501f2da1f01"
     }
   },
   "users": null

@@ -1,0 +1,84 @@
+---
+title: "Emotion Twister Survey — 偉邦物業管理 Well Born"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: "Table of Contents"
+    theme: cosmo
+    code-fold: true
+    embed-resources: false
+    fig-width: 8
+    fig-height: 5
+execute:
+  warning: false
+  message: false
+include-in-header:
+  text: |
+    <style>
+      a.btn-dl {
+        display: inline-block;
+        padding: 0.3rem 0.8rem;
+        margin: 0.15rem 0.35rem 0.7rem 0;
+        background: #2c3e50;
+        color: #fff !important;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 0.85rem;
+      }
+      a.btn-dl:hover { background: #1a252f; }
+      .report-table, .report-table .html-widget, .report-table .datatables {
+        width: 100% !important;
+        max-width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+      .report-table .html-fill-item {
+        flex: 0 0 auto !important;
+        min-width: 0 !important;
+      }
+      div.dataTables_wrapper {
+        width: 100% !important;
+        margin: 0 !important;
+      }
+      div.dataTables_wrapper div.dataTables_filter {
+        float: none;
+        text-align: left;
+        margin-bottom: 0.4rem;
+      }
+      table.dataTable {
+        width: 100% !important;
+        margin: 0 !important;
+      }
+    </style>
+---
+
+::: {.callout-note}
+This report was generated using AI under general human direction. At the time of generation, the contents have not been comprehensively reviewed by a human analyst.
+:::
+
+# Configuration
+
+> Company-specific Connect Cloud entrypoint. Shared analysis is in `_report_body.qmd`.
+
+```{r}
+#| label: config
+
+if (identical(basename(getwd()), "companies")) setwd("..")
+if (file.exists(".Renviron")) readRenviron(".Renviron")
+
+company_name     <- "偉邦物業管理 Well Born"
+use_all_dates    <- FALSE
+include_hk_forms <- FALSE
+start_date    <- as.Date("2026-06-30")
+end_date      <- as.Date("2026-07-16")
+include_windows <- list(
+    list(start = as.Date("2026-06-30"), end = as.Date("2026-07-16"), locations = NULL)
+)
+exclude_periods <- list()
+source("_config_labels.R", encoding = "UTF-8")
+```
+
+{{< include ../_report_body.qmd >}}
+

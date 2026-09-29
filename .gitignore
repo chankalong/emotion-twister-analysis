@@ -3,6 +3,7 @@
 .RData
 .Rproj.user
 .positai/
+.posit/
 
 *.html
 *_files/
