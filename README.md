@@ -28,14 +28,13 @@ Publish **once per company**. Same repository and secret each time; only the pri
 | ESG Hong Kong Ltd. | `companies/esg-hong-kong.qmd` |
 | TDC | `companies/tdc.qmd` |
 | 恆益 | `companies/hang-yick.qmd` |
-| 偉邦物業管理 Well Born (Jun–Jul) | `companies/well-born-2026-06-07.qmd` |
+| 偉邦物業管理 Well Born | `companies/well-born.qmd` |
 | TOPPAN Nexus Holdings Limited | `companies/toppan-nexus.qmd` |
 | MTR | `companies/mtr.qmd` |
 | YWCA 長青 | `companies/ywca-cheung-ching.qmd` |
 | 南豐集團(葵涌廣場物業管理) | `companies/nan-fung-kwai-chung.qmd` |
 | 帝豪閣 | `companies/regal-court.qmd` |
 | 集友 | `companies/chiyu.qmd` |
-| 偉邦物業管理 Well Born (Sep) | `companies/well-born-2026-09.qmd` |
 | BCT | `companies/bct.qmd` |
 
 Free Connect Cloud accounts can only pull **public** GitHub repositories. Paid plans can use a private repo.

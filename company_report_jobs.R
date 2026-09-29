@@ -31,11 +31,14 @@ company_jobs <- list(
     windows = list(w("2026-06-15", "2026-06-29"))
   ),
   list(
-    slug = "well-born-2026-06-07",
+    slug = "well-born",
     company_name = "偉邦物業管理 Well Born",
-    confirmed = "30 Jun – 17 Jul 2026",
-    note = "Jul 17 assigned to TOPPAN (wave start; @toppannexus.com).",
-    windows = list(w("2026-06-30", "2026-07-16"))
+    confirmed = "30 Jun – 17 Jul 2026 and 18 Sep – 28 Sep 2026",
+    note = "Jul 17 assigned to TOPPAN; Sep wave is location 84669 (84792 on 18 Sep stays with 集友).",
+    windows = list(
+      w("2026-06-30", "2026-07-16"),
+      w("2026-09-18", "2026-09-28", "84669")
+    )
   ),
   list(
     slug = "toppan-nexus",
@@ -83,13 +86,6 @@ company_jobs <- list(
     confirmed = "10 Sep – 18 Sep 2026",
     note = "Location 84792 (@chiyubank.com).",
     windows = list(w("2026-09-10", "2026-09-18", "84792"))
-  ),
-  list(
-    slug = "well-born-2026-09",
-    company_name = "偉邦物業管理 Well Born",
-    confirmed = "18 Sep – 28 Sep 2026",
-    note = "Location 84669; 84792 on 18 Sep stays with 集友.",
-    windows = list(w("2026-09-18", "2026-09-28", "84669"))
   ),
   list(
     slug = "bct",

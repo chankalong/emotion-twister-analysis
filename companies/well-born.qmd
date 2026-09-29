@@ -71,9 +71,10 @@ if (file.exists(".Renviron")) readRenviron(".Renviron")
 company_name     <- "偉邦物業管理 Well Born"
 use_all_dates    <- FALSE
 include_hk_forms <- FALSE
-start_date    <- as.Date("2026-09-18")
+start_date    <- as.Date("2026-06-30")
 end_date      <- as.Date("2026-09-28")
 include_windows <- list(
+    list(start = as.Date("2026-06-30"), end = as.Date("2026-07-16"), locations = NULL),
     list(start = as.Date("2026-09-18"), end = as.Date("2026-09-28"), locations = c("84669"))
 )
 exclude_periods <- list()
